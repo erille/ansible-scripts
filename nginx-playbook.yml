@@ -1,6 +1,6 @@
 ---
   - name: Nginx playbook
-    hosts: servers
+    hosts: all
     become: yes
     become_user: root
     tasks:
